@@ -1,0 +1,11 @@
+create database db_springboot_backend;
+
+create table product(
+    id int not null auto_increment,
+    name varchar(45),
+    description text,
+    price int,
+    primary key(id)
+);
+
+insert into product(name, description, price) values ('Mesa comedor', 'Mesa rectangular', 5000);
