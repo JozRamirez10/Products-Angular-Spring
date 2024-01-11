@@ -1,0 +1,17 @@
+ng version 
+    -> Verificar version de angular
+
+ng new "name-project"
+    -> CSS
+    -> Y -> Renderiza las páginas más rápido
+    Crea un proyecto usando angular
+
+ng serve 
+    -> Levanta el servidor de angular
+
+ng generate component path/name
+    -> Genera un componente en la ruta especificada
+    -> Lo genera dentro de la carpeta 'app'
+
+ng generate service path/name
+    -> Genera un service
