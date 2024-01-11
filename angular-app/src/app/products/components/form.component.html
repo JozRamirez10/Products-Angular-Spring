@@ -1,4 +1,4 @@
-<form (ngSubmit)="onSubmit()" #productForm="ngForm"> <!-- Validación para el form -->
+<form (ngSubmit)="onSubmit(productForm)" #productForm="ngForm"> <!-- Validación para el form -->
     <div>
         <input type="text" class="form-control my-2" placeholder="Name" name="name" [(ngModel)]="product.name"
         #name="ngModel" required> <!-- Validaciones -->
